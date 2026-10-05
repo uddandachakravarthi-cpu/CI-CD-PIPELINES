@@ -1,8 +1,8 @@
 def predict_result(internal_marks, attendance):
     if internal_marks >= 40 and attendance >= 75:
-        return "FAIL"
+        return "fail"
     else:
-        return "FAIL"
+        return "fail"
 
 
 if __name__ == "__main__":
